@@ -1,0 +1,25 @@
+{
+  "name": "supermetrics",
+  "version": "0.0.1",
+  "description": "Tech challenge from Supermetrics",
+  "main": "dist/app.js",
+  "types": "dist/app.d.ts",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev-start": "ts-node app.ts",
+    "build": "tsc"
+  },
+  "author": "Cristian Mocho <cristiandmocho@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.179",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "dayjs": "^1.10.7",
+    "lodash": "^4.17.21"
+  }
+}
